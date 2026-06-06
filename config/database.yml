@@ -83,4 +83,4 @@ production:
   <<: *default
   database: tyriens_production
   username: tyriens
-  password: <%= ENV["TOFR_DATABASE_PASSWORD"] %>
+  password: <%= ENV["TYRIENS_DATABASE_PASSWORD"] %>
